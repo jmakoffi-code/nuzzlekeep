@@ -10,6 +10,7 @@ export default function HomePage() {
   const dogTraining = getArticlesByCategory("dog-training").slice(0, 4);
   const catCare = getArticlesByCategory("cat-care").slice(0, 4);
   const newOwner = getArticlesByCategory("new-owner").slice(0, 4);
+  const breedGuides = getArticlesByCategory("breed-guides").slice(0, 4);
 
   return (
     <>
@@ -97,8 +98,23 @@ export default function HomePage() {
         </div>
       </section>
 
+      <div className="wrap">
+        <AdSlot type="in-content" />
+      </div>
+
+      <section className="section" style={{ borderBottom: "none" }}>
+        <div className="wrap">
+          <div className="section-head">
+            <h2>Breed Guides</h2>
+            <Link href="/category/breed-guides" className="see-all">View all entries →</Link>
+          </div>
+          <div className="card-grid">
+            {breedGuides.map((a) => <SpecCard key={a.slug} article={a} />)}
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </>
   );
 }
-

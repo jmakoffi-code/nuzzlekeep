@@ -29,12 +29,21 @@ export default function Footer() {
           </ul>
         </div>
         <div>
+          <h4>More guides</h4>
+          <ul>
+            <li><Link href="/category/new-owner">New Pet Owner Guides</Link></li>
+            <li><Link href="/category/breed-guides">Breed Guides</Link></li>
+            <li><Link href="/category/gear-products">Gear &amp; Products</Link></li>
+          </ul>
+        </div>
+        <div>
           <h4>Site</h4>
           <ul>
             <li><Link href="/about">About Snoutly</Link></li>
             <li><Link href="/editorial-guidelines">Editorial Guidelines</Link></li>
             <li><Link href="/privacy">Privacy Policy</Link></li>
             <li><Link href="/contact">Contact</Link></li>
+            <li><a href="/feed.xml">RSS Feed</a></li>
           </ul>
         </div>
       </div>
@@ -45,4 +54,3 @@ export default function Footer() {
     </footer>
   );
 }
-

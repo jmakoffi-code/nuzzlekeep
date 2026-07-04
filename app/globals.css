@@ -421,7 +421,7 @@ img { max-width: 100%; display: block; }
   gap: 32px;
 }
 @media (min-width: 720px) {
-  .footer-grid { grid-template-columns: 1.4fr repeat(3, 1fr); }
+  .footer-grid { grid-template-columns: 1.4fr repeat(4, 1fr); }
 }
 
 .site-footer h4 {
@@ -649,3 +649,43 @@ img { max-width: 100%; display: block; }
   margin: 0 0 10px;
 }
 .empty-state p { max-width: 46ch; margin: 0 auto; font-size: 15px; }
+
+/* ---------- Share bar ---------- */
+
+.share-bar {
+  border: var(--border);
+  background: var(--card);
+  padding: 18px;
+}
+.share-bar h4 {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--slate);
+  margin: 0 0 14px;
+}
+.share-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.share-pill {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 1.5px solid var(--ink);
+  border-radius: 999px;
+  padding: 8px 16px;
+  background: var(--white);
+  color: var(--ink);
+  cursor: pointer;
+  line-height: 1;
+}
+.share-pill:hover {
+  background: var(--sienna);
+  border-color: var(--sienna);
+  color: var(--white);
+  text-decoration: none;
+}
