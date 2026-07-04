@@ -1,17 +1,17 @@
-import "./globals.css";
+﻿import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   metadataBase: new URL("https://nuzzlekeep.com"),
   title: {
-    default: "Nuzzlekeep — A Field Guide to Pet Care",
-    template: "%s — Nuzzlekeep",
+    default: "Nuzzlekeep - A Field Guide to Pet Care",
+    template: "%s - Nuzzlekeep",
   },
   description:
     "Clear, tested, step-by-step guides for dogs, cats, and small pets. Nuzzlekeep is a field guide to everyday pet care.",
   openGraph: {
-    title: "Nuzzlekeep — A Field Guide to Pet Care",
+    title: "Nuzzlekeep - A Field Guide to Pet Care",
     description:
       "Clear, tested, step-by-step guides for dogs, cats, and small pets.",
     url: "https://nuzzlekeep.com",
@@ -20,12 +20,12 @@ export const metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Nuzzlekeep — A Field Guide to Pet Care",
+    title: "Nuzzlekeep - A Field Guide to Pet Care",
     description:
       "Clear, tested, step-by-step guides for dogs, cats, and small pets.",
   },
   verification: {
-    google: "zrbTLlWiaoS9XgVayqdZyPnJ4eFHl4i2icaMET_oMSQ",
+    google: "R7eHaaJeSBllL-1_rASnEU_ky1EuewR98IPczBA607Q",
   },
 };
 
