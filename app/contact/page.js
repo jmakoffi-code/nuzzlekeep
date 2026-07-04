@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Contact",
-  description: "Get in touch with Snoutly.",
+  description: "Get in touch with Nuzzlekeep.",
 };
 
 export default function ContactPage() {
@@ -27,8 +27,8 @@ export default function ContactPage() {
               you.
             </p>
             <p>
-              <a href="mailto:hello@snoutlypet.com" style={{ fontSize: 19 }}>
-                hello@snoutlypet.com
+              <a href="mailto:hello@nuzzlekeep.com" style={{ fontSize: 19 }}>
+                hello@nuzzlekeep.com
               </a>
             </p>
             <p>

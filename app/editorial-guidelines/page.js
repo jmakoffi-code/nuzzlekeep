@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Editorial Guidelines",
-  description: "How Snoutly researches, writes, and updates its entries.",
+  description: "How Nuzzlekeep researches, writes, and updates its entries.",
 };
 
 export default function EditorialGuidelinesPage() {
@@ -47,7 +47,7 @@ export default function EditorialGuidelinesPage() {
 
             <h2>Advertising and independence</h2>
             <p>
-              Snoutly is supported by display advertising. Ad placement never
+              Nuzzlekeep is supported by display advertising. Ad placement never
               influences which topics we cover or what an entry recommends. We don&apos;t
               accept payment to feature specific products or brands within an entry.
             </p>

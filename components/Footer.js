@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer-grid">
         <div>
           <Link href="/" className="logo" style={{ color: "var(--paper)" }}>
-            Snoutly
+            Nuzzlekeep
           </Link>
           <p style={{ fontSize: 14, opacity: 0.75, maxWidth: "38ch", marginTop: 12 }}>
             A field guide to everyday pet care, practical, tested, and written in plain steps.
@@ -39,7 +39,7 @@ export default function Footer() {
         <div>
           <h4>Site</h4>
           <ul>
-            <li><Link href="/about">About Snoutly</Link></li>
+            <li><Link href="/about">About Nuzzlekeep</Link></li>
             <li><Link href="/editorial-guidelines">Editorial Guidelines</Link></li>
             <li><Link href="/privacy">Privacy Policy</Link></li>
             <li><Link href="/contact">Contact</Link></li>
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <span>© 2026 Snoutly. All entries independently researched.</span>
+        <span>© 2026 Nuzzlekeep. All entries independently researched.</span>
         <span>Not a substitute for veterinary advice.</span>
       </div>
     </footer>

@@ -40,9 +40,9 @@ export default async function ArticlePage({ params }) {
   const faqSchema = buildFaqSchema(article);
   const articleSchema = howToSchema ? null : buildArticleSchema(article, category?.label);
   const breadcrumbSchema = buildBreadcrumbSchema([
-    { name: "Snoutly", url: "https://snoutlypet.com" },
-    { name: category?.label || "Category", url: `https://snoutlypet.com/category/${article.category}` },
-    { name: article.title, url: `https://snoutlypet.com/article/${article.slug}` },
+    { name: "Nuzzlekeep", url: "https://nuzzlekeep.com" },
+    { name: category?.label || "Category", url: `https://nuzzlekeep.com/category/${article.category}` },
+    { name: article.title, url: `https://nuzzlekeep.com/article/${article.slug}` },
   ]);
 
   return (
@@ -75,7 +75,7 @@ export default async function ArticlePage({ params }) {
       <div className="article-header">
         <div className="wrap">
           <p className="breadcrumb">
-            <Link href="/">Snoutly</Link> / <Link href={`/category/${article.category}`}>{category?.label}</Link> / {article.tag}
+            <Link href="/">Nuzzlekeep</Link> / <Link href={`/category/${article.category}`}>{category?.label}</Link> / {article.tag}
           </p>
           <h1>{article.title}</h1>
           <div className="article-meta">

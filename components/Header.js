@@ -6,7 +6,7 @@ export default function Header({ activeCategory }) {
     <header className="site-header">
       <div className="header-inner">
         <Link href="/" className="logo">
-          <span className="mark">S</span>Snoutly
+          <span className="mark">N</span>Nuzzlekeep
         </Link>
         <span className="tagline">A field guide to pet care</span>
         <form className="search-form" role="search" action="/search">
@@ -14,7 +14,7 @@ export default function Header({ activeCategory }) {
             type="search"
             name="q"
             placeholder='Search a topic, e.g. "nail trimming"'
-            aria-label="Search Snoutly"
+            aria-label="Search Nuzzlekeep"
           />
           <button type="submit">Search</button>
         </form>

@@ -1,7 +1,7 @@
 import { articles, categories } from "@/lib/articles";
 
 export default function sitemap() {
-  const base = "https://snoutlypet.com";
+  const base = "https://nuzzlekeep.com";
 
   const staticPages = [
     { url: `${base}/`, priority: 1 },

@@ -2,8 +2,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "About Snoutly",
-  description: "Why Snoutly exists and how we approach writing pet care guides.",
+  title: "About Nuzzlekeep",
+  description: "Why Nuzzlekeep exists and how we approach writing pet care guides.",
 };
 
 export default function AboutPage() {
@@ -14,7 +14,7 @@ export default function AboutPage() {
       <div className="category-header">
         <div className="wrap">
           <p className="hero-eyebrow">About</p>
-          <h1>Why Snoutly exists</h1>
+          <h1>Why Nuzzlekeep exists</h1>
         </div>
       </div>
 
@@ -24,7 +24,7 @@ export default function AboutPage() {
             <p>
               Most pet care content online falls into one of two camps: a wall of text
               padded out to rank for a keyword, or a forum thread with forty conflicting
-              opinions and no clear answer. Snoutly is an attempt at a third option:
+              opinions and no clear answer. Nuzzlekeep is an attempt at a third option:
               specific, numbered steps for the questions people actually type into a
               search bar, without the ten-paragraph preamble first.
             </p>
@@ -47,7 +47,7 @@ export default function AboutPage() {
 
             <h2>How the site makes money</h2>
             <p>
-              Snoutly runs on display advertising. We don&apos;t accept payment to
+              Nuzzlekeep runs on display advertising. We don&apos;t accept payment to
               feature a specific product or brand inside an entry, and sponsored
               content, if we ever run any, will always be labeled clearly as such.
             </p>

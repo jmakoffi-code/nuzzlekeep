@@ -19,7 +19,7 @@ export default async function Image({ params }) {
   const category = getCategoryBySlug(slug);
   const count = category ? getArticlesByCategory(category.slug).length : 0;
 
-  const title = category?.label || "Snoutly";
+  const title = category?.label || "Nuzzlekeep";
 
   let fonts = [];
   try {
@@ -57,10 +57,10 @@ export default async function Image({ params }) {
               marginRight: 14,
             }}
           >
-            S
+            N
           </div>
           <div style={{ fontSize: 26, color: INK, fontFamily: fonts.length ? "Zilla Slab" : "serif", fontWeight: 700 }}>
-            Snoutly
+            Nuzzlekeep
           </div>
         </div>
         <div
@@ -96,7 +96,7 @@ export default async function Image({ params }) {
             marginTop: 28,
           }}
         >
-          snoutlypet.com
+          nuzzlekeep.com
         </div>
       </div>
     ),

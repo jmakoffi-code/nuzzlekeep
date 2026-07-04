@@ -23,7 +23,7 @@ export default async function SearchPage({ searchParams }) {
       <div className="category-header">
         <div className="wrap">
           <p className="hero-eyebrow">Search</p>
-          <h1>{q ? `Results for “${q}”` : "Search Snoutly"}</h1>
+          <h1>{q ? `Results for “${q}”` : "Search Nuzzlekeep"}</h1>
           <p>{q ? `${results.length} ${results.length === 1 ? "entry" : "entries"} found.` : "Try a topic like nail trimming, recall, or litter training."}</p>
         </div>
       </div>

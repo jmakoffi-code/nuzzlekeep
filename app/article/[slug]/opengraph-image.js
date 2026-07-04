@@ -21,7 +21,7 @@ export default async function Image({ params }) {
   const article = getArticleBySlug(slug);
   const category = article ? getCategoryBySlug(article.category) : null;
 
-  const title = article?.title || "Snoutly";
+  const title = article?.title || "Nuzzlekeep";
   const tag = article?.tag || category?.label || "Pet Care";
   const entryNo = article?.entryNo;
   const meta = [
@@ -70,9 +70,9 @@ export default async function Image({ params }) {
                 marginRight: 16,
               }}
             >
-              S
+              N
             </div>
-            <div style={{ fontSize: 32, color: INK, fontWeight: 700 }}>Snoutly</div>
+            <div style={{ fontSize: 32, color: INK, fontWeight: 700 }}>Nuzzlekeep</div>
           </div>
           {entryNo ? (
             <div
@@ -143,7 +143,7 @@ export default async function Image({ params }) {
           }}
         >
           <div style={{ display: "flex" }}>{meta}</div>
-          <div style={{ display: "flex" }}>snoutlypet.com</div>
+          <div style={{ display: "flex" }}>nuzzlekeep.com</div>
         </div>
       </div>
     ),

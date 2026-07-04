@@ -46,10 +46,10 @@ export default async function Image() {
               marginRight: 20,
             }}
           >
-            S
+            N
           </div>
           <div style={{ fontSize: 76, color: INK, fontFamily: fonts.length ? "Zilla Slab" : "serif", fontWeight: 700 }}>
-            Snoutly
+            Nuzzlekeep
           </div>
         </div>
         <div

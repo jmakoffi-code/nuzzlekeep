@@ -1,26 +1,26 @@
-﻿import "./globals.css";
+import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
-  metadataBase: new URL("https://snoutlypet.com"),
+  metadataBase: new URL("https://nuzzlekeep.com"),
   title: {
-    default: "Snoutly - A Field Guide to Pet Care",
-    template: "%s - Snoutly",
+    default: "Nuzzlekeep — A Field Guide to Pet Care",
+    template: "%s — Nuzzlekeep",
   },
   description:
-    "Clear, tested, step-by-step guides for dogs, cats, and small pets. Snoutly is a field guide to everyday pet care.",
+    "Clear, tested, step-by-step guides for dogs, cats, and small pets. Nuzzlekeep is a field guide to everyday pet care.",
   openGraph: {
-    title: "Snoutly - A Field Guide to Pet Care",
+    title: "Nuzzlekeep — A Field Guide to Pet Care",
     description:
       "Clear, tested, step-by-step guides for dogs, cats, and small pets.",
-    url: "https://snoutlypet.com",
-    siteName: "Snoutly",
+    url: "https://nuzzlekeep.com",
+    siteName: "Nuzzlekeep",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Snoutly - A Field Guide to Pet Care",
+    title: "Nuzzlekeep — A Field Guide to Pet Care",
     description:
       "Clear, tested, step-by-step guides for dogs, cats, and small pets.",
   },
@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@500;600&display=swap"
           rel="stylesheet"
         />
-        <link rel="alternate" type="application/rss+xml" title="Snoutly RSS Feed" href="/feed.xml" />
+        <link rel="alternate" type="application/rss+xml" title="Nuzzlekeep RSS Feed" href="/feed.xml" />
       </head>
       <body>
         {children}

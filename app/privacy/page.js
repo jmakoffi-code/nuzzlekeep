@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Privacy Policy",
-  description: "How Snoutly collects, uses, and protects information from visitors.",
+  description: "How Nuzzlekeep collects, uses, and protects information from visitors.",
 };
 
 export default function PrivacyPage() {
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
         <div className="wrap" style={{ maxWidth: 760 }}>
           <div className="article-body">
             <p>
-              This policy explains what information Snoutly collects when you visit
+              This policy explains what information Nuzzlekeep collects when you visit
               the site, how it&apos;s used, and the choices available to you.
             </p>
 
@@ -36,14 +36,14 @@ export default function PrivacyPage() {
               results.
             </p>
             <p>
-              We don&apos;t require account creation to read Snoutly, so we don&apos;t
+              We don&apos;t require account creation to read Nuzzlekeep, so we don&apos;t
               collect names, email addresses, or other personal identifiers unless you
               choose to provide them by contacting us directly.
             </p>
 
             <h2>Cookies and advertising</h2>
             <p>
-              Snoutly displays ads served through Google AdSense. Google and its
+              Nuzzlekeep displays ads served through Google AdSense. Google and its
               advertising partners use cookies to serve ads based on your visits to
               this and other websites. You can opt out of personalized advertising by
               visiting Google&apos;s{" "}
@@ -71,7 +71,7 @@ export default function PrivacyPage() {
 
             <h2>Children&apos;s privacy</h2>
             <p>
-              Snoutly is not directed at children under 13, and we don&apos;t knowingly
+              Nuzzlekeep is not directed at children under 13, and we don&apos;t knowingly
               collect personal information from children.
             </p>
 

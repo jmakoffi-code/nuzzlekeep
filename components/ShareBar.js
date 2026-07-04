@@ -1,6 +1,6 @@
 import CopyLinkButton from "./CopyLinkButton";
 
-const SITE_URL = "https://snoutlypet.com";
+const SITE_URL = "https://nuzzlekeep.com";
 
 export default function ShareBar({ slug, title, excerpt }) {
   const url = `${SITE_URL}/article/${slug}`;

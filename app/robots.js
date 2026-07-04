@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://snoutlypet.com/sitemap.xml",
+    sitemap: "https://nuzzlekeep.com/sitemap.xml",
   };
 }
