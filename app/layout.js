@@ -39,6 +39,11 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         <link rel="alternate" type="application/rss+xml" title="Nuzzlekeep RSS Feed" href="/feed.xml" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7528249576285985"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body>
         {children}
