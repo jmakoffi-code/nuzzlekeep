@@ -45,6 +45,15 @@ export default function AboutPage() {
               can actually examine your animal.
             </p>
 
+            <h2>Who writes this</h2>
+            <p>
+              Entries are written and maintained by the Nuzzlekeep team: pet
+              owners first, writers second. Each guide draws on our own routines
+              with our own animals, then gets checked against current veterinary
+              guidance before it&apos;s published. When something changes, we
+              update the entry rather than leave it stale.
+            </p>
+
             <h2>How the site makes money</h2>
             <p>
               Nuzzlekeep runs on display advertising. We don&apos;t accept payment to
