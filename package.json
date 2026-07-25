@@ -13,7 +13,7 @@
     "validate": "npm run check:links && npm run build"
   },
   "dependencies": {
-    "@fontsource/ibm-plex-mono": "^5.2.7",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
     "@fontsource/zilla-slab": "^5.2.8",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
