@@ -10,6 +10,7 @@ export const metadata = {
   },
   description:
     "Clear, tested, step-by-step guides for dogs, cats, and small pets. Nuzzlekeep is a field guide to everyday pet care.",
+  alternates: { canonical: "/" },
   openGraph: {
     title: "Nuzzlekeep - A Field Guide to Pet Care",
     description:

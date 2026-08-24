@@ -13,7 +13,13 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const category = getCategoryBySlug(slug);
   if (!category) return {};
-  return { title: category.label, description: category.description };
+  const url = `https://nuzzlekeep.com/category/${category.slug}`;
+  return {
+    title: category.label,
+    description: category.description,
+    alternates: { canonical: url },
+    openGraph: { url },
+  };
 }
 
 export default async function CategoryPage({ params }) {

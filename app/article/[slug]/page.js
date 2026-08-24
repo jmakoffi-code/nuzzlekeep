@@ -25,7 +25,14 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   if (!article) return {};
-  return { title: article.title, description: article.excerpt };
+  const url = `https://nuzzlekeep.com/article/${article.slug}`;
+  return {
+    title: article.title,
+    description: article.excerpt,
+    alternates: { canonical: url },
+    openGraph: { url },
+    twitter: { card: "summary" },
+  };
 }
 
 export default async function ArticlePage({ params }) {
