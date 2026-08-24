@@ -92,11 +92,6 @@ export default async function ArticlePage({ params }) {
             {article.difficulty ? <span>Difficulty: {article.difficulty}</span> : null}
             <span>Updated {article.updated}</span>
           </div>
-          <p className="byline">
-            Written by the{" "}
-            <Link href="/about">Nuzzlekeep Team</Link>, based on hands-on experience
-            and cross-checked against current vet guidance.
-          </p>
         </div>
       </div>
 
