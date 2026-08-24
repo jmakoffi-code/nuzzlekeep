@@ -113,6 +113,34 @@ export default async function ArticlePage({ params }) {
             </>
           ) : null}
 
+          {article.comparisonTable ? (
+            <div className="compare-table-wrap">
+              <table className="compare-table">
+                {article.comparisonTable.caption ? (
+                  <caption>{article.comparisonTable.caption}</caption>
+                ) : null}
+                <thead>
+                  <tr>
+                    <th></th>
+                    {article.comparisonTable.columns.map((col, i) => (
+                      <th key={i}>{col}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {article.comparisonTable.rows.map((row, i) => (
+                    <tr key={i}>
+                      <td>{row.label}</td>
+                      {row.values.map((v, j) => (
+                        <td key={j}>{v}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : null}
+
           {article.sections?.length
             ? article.sections.map((section, i) => (
                 <div key={i}>
