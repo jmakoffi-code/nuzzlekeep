@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace">
+  <rect width="640" height="300" fill="#F8F3E5"/>
+
+  <text x="320" y="40" text-anchor="middle" font-size="13" fill="#22301F" font-weight="700" letter-spacing="1">THE RIGHT SIZE, NOT MORE</text>
+  <text x="320" y="58" text-anchor="middle" font-size="10" fill="#5C6B5E">Too much extra space defeats the secure, den-like feeling a crate should give</text>
+
+  <!-- Crate outline -->
+  <rect x="140" y="80" width="360" height="150" fill="none" stroke="#22301F" stroke-width="3"/>
+  <!-- crate bars -->
+  <g stroke="#22301F" stroke-width="1" opacity="0.35">
+    <line x1="170" y1="80" x2="170" y2="230"/>
+    <line x1="200" y1="80" x2="200" y2="230"/>
+    <line x1="230" y1="80" x2="230" y2="230"/>
+    <line x1="260" y1="80" x2="260" y2="230"/>
+    <line x1="290" y1="80" x2="290" y2="230"/>
+    <line x1="320" y1="80" x2="320" y2="230"/>
+    <line x1="350" y1="80" x2="350" y2="230"/>
+    <line x1="380" y1="80" x2="380" y2="230"/>
+    <line x1="410" y1="80" x2="410" y2="230"/>
+    <line x1="440" y1="80" x2="440" y2="230"/>
+    <line x1="470" y1="80" x2="470" y2="230"/>
+  </g>
+
+  <!-- dog inside, standing -->
+  <g transform="translate(230,130)">
+    <ellipse cx="70" cy="60" rx="65" ry="26" fill="#C89B3C"/>
+    <circle cx="130" cy="45" r="20" fill="#C89B3C"/>
+    <line x1="15" y1="85" x2="15" y2="98" stroke="#22301F" stroke-width="4"/>
+    <line x1="125" y1="85" x2="125" y2="98" stroke="#22301F" stroke-width="4"/>
+  </g>
+
+  <!-- height label -->
+  <text x="120" y="160" text-anchor="middle" font-size="9" fill="#B5502E" font-weight="600" transform="rotate(-90 120 160)">stand upright</text>
+
+  <!-- length arrow -->
+  <line x1="145" y1="245" x2="495" y2="245" stroke="#B5502E" stroke-width="1.5"/>
+  <text x="320" y="262" text-anchor="middle" font-size="10" fill="#B5502E" font-weight="600">turn around and lie down fully stretched out</text>
+
+  <rect x="15" y="15" width="610" height="255" fill="none" stroke="#22301F" stroke-width="1.5"/>
+</svg>

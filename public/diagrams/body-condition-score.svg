@@ -1,0 +1,41 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace">
+  <rect width="700" height="300" fill="#F8F3E5"/>
+
+  <!-- Underweight -->
+  <g transform="translate(50,50)">
+    <text x="90" y="-15" text-anchor="middle" font-size="12" fill="#B5502E" font-weight="700" letter-spacing="1">TOO THIN</text>
+    <ellipse cx="90" cy="90" rx="70" ry="22" fill="none" stroke="#22301F" stroke-width="2.5"/>
+    <path d="M30,90 Q90,72 150,90" fill="none" stroke="#B5502E" stroke-width="2"/>
+    <path d="M40,80 L45,100 M55,78 L60,100 M70,77 L75,100 M85,76 L90,100 M100,77 L105,100 M115,78 L120,100 M130,80 L135,100" stroke="#B5502E" stroke-width="1.5" opacity="0.7"/>
+    <path d="M50,108 Q90,120 130,108" fill="none" stroke="#22301F" stroke-width="2"/>
+    <text x="90" y="150" text-anchor="middle" font-size="10" fill="#22301F">Ribs, spine, hips</text>
+    <text x="90" y="164" text-anchor="middle" font-size="10" fill="#22301F">visible at a glance</text>
+    <text x="90" y="185" text-anchor="middle" font-size="10" fill="#5C6B5E">Severe waist tuck,</text>
+    <text x="90" y="199" text-anchor="middle" font-size="10" fill="#5C6B5E">no fat cover</text>
+  </g>
+
+  <!-- Ideal -->
+  <g transform="translate(270,50)">
+    <text x="90" y="-15" text-anchor="middle" font-size="12" fill="#5C6B5E" font-weight="700" letter-spacing="1">IDEAL WEIGHT</text>
+    <ellipse cx="90" cy="90" rx="70" ry="26" fill="none" stroke="#22301F" stroke-width="2.5"/>
+    <path d="M30,90 Q90,78 150,90" fill="none" stroke="#C89B3C" stroke-width="2" stroke-dasharray="3 3"/>
+    <path d="M55,108 Q90,116 125,108" fill="none" stroke="#22301F" stroke-width="2"/>
+    <text x="90" y="150" text-anchor="middle" font-size="10" fill="#22301F">Ribs felt easily,</text>
+    <text x="90" y="164" text-anchor="middle" font-size="10" fill="#22301F">not visible</text>
+    <text x="90" y="185" text-anchor="middle" font-size="10" fill="#5C6B5E">Visible waist tuck</text>
+    <text x="90" y="199" text-anchor="middle" font-size="10" fill="#5C6B5E">from above</text>
+  </g>
+
+  <!-- Overweight -->
+  <g transform="translate(490,50)">
+    <text x="90" y="-15" text-anchor="middle" font-size="12" fill="#B5502E" font-weight="700" letter-spacing="1">OVERWEIGHT</text>
+    <ellipse cx="90" cy="95" rx="75" ry="34" fill="none" stroke="#22301F" stroke-width="2.5"/>
+    <path d="M25,108 Q90,124 155,108" fill="none" stroke="#22301F" stroke-width="2"/>
+    <text x="90" y="150" text-anchor="middle" font-size="10" fill="#22301F">Ribs hard to feel</text>
+    <text x="90" y="164" text-anchor="middle" font-size="10" fill="#22301F">under fat layer</text>
+    <text x="90" y="185" text-anchor="middle" font-size="10" fill="#5C6B5E">No waist,</text>
+    <text x="90" y="199" text-anchor="middle" font-size="10" fill="#5C6B5E">rounded abdomen</text>
+  </g>
+
+  <rect x="15" y="15" width="670" height="255" fill="none" stroke="#22301F" stroke-width="1.5"/>
+</svg>
