@@ -106,6 +106,19 @@ export default async function ArticlePage({ params }) {
             <AdSlot type="in-content" />
           </div>
 
+          {article.diagram ? (
+            <figure className="article-diagram">
+              <img
+                src={article.diagram.src}
+                alt={article.diagram.alt}
+                width={article.diagram.width || 640}
+                height={article.diagram.height || 320}
+                loading="lazy"
+              />
+              {article.diagram.caption ? <figcaption>{article.diagram.caption}</figcaption> : null}
+            </figure>
+          ) : null}
+
           {article.whatYouNeed ? (
             <>
               <h2>What you&apos;ll need</h2>

@@ -1,0 +1,32 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace">
+  <rect width="640" height="320" fill="#F8F3E5"/>
+
+  <!-- Light nail (left) -->
+  <g transform="translate(60,60)">
+    <text x="90" y="-20" text-anchor="middle" font-size="13" fill="#22301F" font-weight="700" letter-spacing="1">LIGHT NAIL</text>
+    <path d="M0,40 Q10,0 90,0 Q170,0 180,40 Q170,55 90,55 Q10,55 0,40 Z" fill="#F8F3E5" stroke="#22301F" stroke-width="2.5"/>
+    <path d="M8,40 Q16,10 90,10 Q164,10 172,40 Q164,48 90,48 Q16,48 8,40 Z" fill="#E9A98F" opacity="0.75"/>
+    <line x1="128" y1="8" x2="128" y2="50" stroke="#B5502E" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="128" y="80" text-anchor="middle" font-size="11" fill="#B5502E" font-weight="600">SAFE CUT LINE</text>
+    <text x="90" y="100" text-anchor="middle" font-size="10" fill="#5C6B5E">quick visible through nail</text>
+  </g>
+
+  <!-- Dark nail (right) -->
+  <g transform="translate(380,60)">
+    <text x="90" y="-20" text-anchor="middle" font-size="13" fill="#22301F" font-weight="700" letter-spacing="1">DARK NAIL</text>
+    <path d="M0,40 Q10,0 90,0 Q170,0 180,40 Q170,55 90,55 Q10,55 0,40 Z" fill="#3A2E22" stroke="#22301F" stroke-width="2.5"/>
+    <line x1="70" y1="8" x2="70" y2="50" stroke="#C89B3C" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="70" y="80" text-anchor="middle" font-size="11" fill="#C89B3C" font-weight="600">TRIM IN THIN SLICES</text>
+    <text x="90" y="100" text-anchor="middle" font-size="10" fill="#5C6B5E">quick not visible, go slowly</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(60,230)">
+    <rect x="0" y="0" width="14" height="14" fill="#E9A98F" opacity="0.75"/>
+    <text x="22" y="12" font-size="12" fill="#22301F">The quick (blood vessel + nerve, avoid cutting)</text>
+    <rect x="0" y="28" width="14" height="14" fill="none" stroke="#B5502E" stroke-width="2"/>
+    <text x="22" y="40" font-size="12" fill="#22301F">Safe zone to trim (light nails)</text>
+  </g>
+
+  <rect x="20" y="20" width="600" height="280" fill="none" stroke="#22301F" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 780 280" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace">
+  <rect width="780" height="280" fill="#F8F3E5"/>
+
+  <!-- Position 1: up + curved -->
+  <g transform="translate(50,40)">
+    <path d="M20,140 Q20,60 45,30 Q55,15 45,5" fill="none" stroke="#22301F" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="45" cy="5" r="5" fill="#22301F"/>
+    <text x="35" y="175" text-anchor="middle" font-size="10" fill="#22301F" font-weight="700">UP, CURVED</text>
+    <text x="35" y="190" text-anchor="middle" font-size="9" fill="#5C6B5E">confident greeting</text>
+  </g>
+
+  <!-- Position 2: puffed / bottle brush -->
+  <g transform="translate(190,40)">
+    <path d="M20,140 Q10,70 35,20" fill="none" stroke="#B5502E" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+    <path d="M20,140 Q10,70 35,20" fill="none" stroke="#22301F" stroke-width="2" stroke-dasharray="2 3"/>
+    <text x="20" y="175" text-anchor="middle" font-size="10" fill="#22301F" font-weight="700">PUFFED</text>
+    <text x="20" y="190" text-anchor="middle" font-size="9" fill="#5C6B5E">fear, give space</text>
+  </g>
+
+  <!-- Position 3: low, tucked -->
+  <g transform="translate(340,20)">
+    <path d="M20,120 Q45,100 55,130 Q60,145 50,150" fill="none" stroke="#22301F" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="50" cy="150" r="5" fill="#22301F"/>
+    <text x="35" y="195" text-anchor="middle" font-size="10" fill="#22301F" font-weight="700">LOW, TUCKED</text>
+    <text x="35" y="210" text-anchor="middle" font-size="9" fill="#5C6B5E">anxious, unsure</text>
+  </g>
+
+  <!-- Position 4: slow swish -->
+  <g transform="translate(500,40)">
+    <path d="M20,140 Q60,130 30,100 Q0,70 40,50" fill="none" stroke="#C89B3C" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="40" cy="50" r="5" fill="#C89B3C"/>
+    <text x="30" y="175" text-anchor="middle" font-size="10" fill="#22301F" font-weight="700">SLOW SWISH</text>
+    <text x="30" y="190" text-anchor="middle" font-size="9" fill="#5C6B5E">focused, mild irritation</text>
+  </g>
+
+  <!-- Position 5: fast flick -->
+  <g transform="translate(640,40)">
+    <path d="M20,140 Q50,120 15,95" fill="none" stroke="#B5502E" stroke-width="6" stroke-linecap="round"/>
+    <path d="M15,95 Q45,80 15,60" fill="none" stroke="#B5502E" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="15" cy="60" r="5" fill="#B5502E" opacity="0.5"/>
+    <text x="20" y="175" text-anchor="middle" font-size="10" fill="#22301F" font-weight="700">FAST FLICK</text>
+    <text x="20" y="190" text-anchor="middle" font-size="9" fill="#5C6B5E">overstimulated</text>
+  </g>
+
+  <rect x="15" y="15" width="750" height="250" fill="none" stroke="#22301F" stroke-width="1.5"/>
+</svg>
