@@ -1,0 +1,50 @@
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace">
+  <rect width="700" height="260" fill="#F8F3E5"/>
+
+  <text x="350" y="35" text-anchor="middle" font-size="13" fill="#22301F" font-weight="700" letter-spacing="1">TRAIN ONE VARIABLE AT A TIME</text>
+  <text x="350" y="53" text-anchor="middle" font-size="10" fill="#5C6B5E">Stacking two at once is why stay training usually stalls</text>
+
+  <!-- Stage 1: Duration -->
+  <g transform="translate(60,85)">
+    <rect x="0" y="0" width="170" height="110" fill="#F8F3E5" stroke="#22301F" stroke-width="2"/>
+    <text x="85" y="25" text-anchor="middle" font-size="11" fill="#22301F" font-weight="700">1. DURATION</text>
+    <circle cx="85" cy="60" r="10" fill="#22301F"/>
+    <circle cx="85" cy="75" r="9" fill="#C89B3C"/>
+    <text x="85" y="98" text-anchor="middle" font-size="9" fill="#5C6B5E">stay next to you,</text>
+    <text x="85" y="108" text-anchor="middle" font-size="9" fill="#5C6B5E">hold longer</text>
+  </g>
+
+  <path d="M240,140 L270,140" stroke="#22301F" stroke-width="2" marker-end="url(#a1)"/>
+
+  <!-- Stage 2: Distance -->
+  <g transform="translate(280,85)">
+    <rect x="0" y="0" width="170" height="110" fill="#F8F3E5" stroke="#22301F" stroke-width="2"/>
+    <text x="85" y="25" text-anchor="middle" font-size="11" fill="#22301F" font-weight="700">2. DISTANCE</text>
+    <circle cx="130" cy="65" r="10" fill="#22301F"/>
+    <circle cx="45" cy="70" r="9" fill="#C89B3C"/>
+    <line x1="55" y1="70" x2="120" y2="66" stroke="#B5502E" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <text x="85" y="98" text-anchor="middle" font-size="9" fill="#5C6B5E">step back, duration</text>
+    <text x="85" y="108" text-anchor="middle" font-size="9" fill="#5C6B5E">drops, rebuild it</text>
+  </g>
+
+  <path d="M460,140 L490,140" stroke="#22301F" stroke-width="2" marker-end="url(#a1)"/>
+
+  <!-- Stage 3: Distraction -->
+  <g transform="translate(500,85)">
+    <rect x="0" y="0" width="140" height="110" fill="#F8F3E5" stroke="#22301F" stroke-width="2"/>
+    <text x="70" y="25" text-anchor="middle" font-size="11" fill="#22301F" font-weight="700">3. DISTRACTION</text>
+    <circle cx="105" cy="65" r="10" fill="#22301F"/>
+    <circle cx="35" cy="70" r="9" fill="#C89B3C"/>
+    <circle cx="65" cy="55" r="5" fill="#B5502E" opacity="0.7"/>
+    <text x="70" y="98" text-anchor="middle" font-size="9" fill="#5C6B5E">add real-world</text>
+    <text x="70" y="108" text-anchor="middle" font-size="9" fill="#5C6B5E">distractions last</text>
+  </g>
+
+  <defs>
+    <marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#22301F"/>
+    </marker>
+  </defs>
+
+  <rect x="15" y="15" width="670" height="205" fill="none" stroke="#22301F" stroke-width="1.5"/>
+</svg>

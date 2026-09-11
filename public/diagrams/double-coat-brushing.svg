@@ -1,0 +1,38 @@
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace">
+  <rect width="720" height="280" fill="#F8F3E5"/>
+
+  <text x="360" y="40" text-anchor="middle" font-size="13" fill="#22301F" font-weight="700" letter-spacing="1">TWO PASSES, TWO DIRECTIONS</text>
+
+  <!-- Pass 1: against growth with rake -->
+  <g transform="translate(40,75)">
+    <text x="140" y="0" text-anchor="middle" font-size="11" fill="#B5502E" font-weight="700">1. UNDERCOAT RAKE</text>
+    <rect x="0" y="20" width="280" height="90" fill="#E9E1CC" stroke="#22301F" stroke-width="2"/>
+    <path d="M240,35 L40,90" stroke="#B5502E" stroke-width="3" marker-end="url(#arRust)"/>
+    <path d="M240,55 L40,105" stroke="#B5502E" stroke-width="3" marker-end="url(#arRust)" opacity="0.6"/>
+    <text x="140" y="130" text-anchor="middle" font-size="9" fill="#5C6B5E">against the lay, section by section</text>
+    <text x="140" y="143" text-anchor="middle" font-size="9" fill="#5C6B5E">lifts loose undercoat</text>
+  </g>
+
+  <!-- Pass 2: with growth, slicker -->
+  <g transform="translate(400,75)">
+    <text x="140" y="0" text-anchor="middle" font-size="11" fill="#5C6B5E" font-weight="700">2. SLICKER BRUSH</text>
+    <rect x="0" y="20" width="280" height="90" fill="#E9E1CC" stroke="#22301F" stroke-width="2"/>
+    <path d="M40,60 L240,60" stroke="#5C6B5E" stroke-width="3" marker-end="url(#arSlate)"/>
+    <path d="M40,80 L240,80" stroke="#5C6B5E" stroke-width="3" marker-end="url(#arSlate)" opacity="0.6"/>
+    <text x="140" y="130" text-anchor="middle" font-size="9" fill="#5C6B5E">with the lay, finishing pass</text>
+    <text x="140" y="143" text-anchor="middle" font-size="9" fill="#5C6B5E">smooths the topcoat</text>
+  </g>
+
+  <defs>
+    <marker id="arRust" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#B5502E"/>
+    </marker>
+    <marker id="arSlate" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#5C6B5E"/>
+    </marker>
+  </defs>
+
+  <text x="360" y="245" text-anchor="middle" font-size="10" fill="#5C6B5E">Skipping the rake pass is why brushing alone doesn't stop shedding</text>
+
+  <rect x="15" y="15" width="690" height="235" fill="none" stroke="#22301F" stroke-width="1.5"/>
+</svg>
